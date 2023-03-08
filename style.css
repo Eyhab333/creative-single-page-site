@@ -1,0 +1,240 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*##### for-phone-only ##########*/
+@media (max-width: 599px) {
+  header {
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .logo {
+    height: 30px;
+    width: 161px;
+  }
+  header .icon-hamburger {
+    height: 18px;
+    width: 24px;
+  }
+  main .hero {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main .hero .text {
+    padding: 56px 24px 96px 24px;
+  }
+  main .hero .text h1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  main .hero .text p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  main .hero .text a {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    padding: 25px 40px;
+    background: #f94f4f;
+  }
+  main .div2 {
+    background: #191921;
+  }
+  main .div2 .text {
+    padding: 72px 24px;
+  }
+  main .div2 .text h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  main .div2 .text h2 span {
+    color: #f94f4f;
+  }
+  main .div2 .text p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  main .div2 .text a {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    color: #f94f4f;
+  }
+  main .div3 {
+    background: #f94f4f;
+    padding: 96px 24px;
+  }
+  main .div3 .first-text {
+    margin-bottom: 93px;
+  }
+  main .div3 .first-text h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+    color: #ffffff;
+  }
+  main .div3 .second-text .item + .item {
+    margin-top: 84px;
+  }
+  main .div3 .second-text .item {
+    position: relative;
+  }
+  main .div3 .second-text .item h3 {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  main .div3 .second-text .item p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #ffffff;
+    max-width: 260px;
+  }
+  main .div4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main .div4 .text {
+    padding: 64px 24px;
+    background: #191921;
+    margin-bottom: 24px;
+  }
+  main .div4 .text h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  main .div4 .text .navigation {
+    width: 96px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .div4 .text .navigation a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f94f4f;
+    border-radius: 50%;
+  }
+  main .div4 .text .navigation a .arrow {
+    border-radius: 50%;
+  }
+  footer {
+    padding: 6.25rem 1.5rem;
+  }
+  footer h2 {
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 2.9375rem;
+  }
+  footer a {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 22px 44px;
+    background: #f94f4f;
+  }
+}
+/*############ for-tablet-portrait-up ##############*/
+/*############ for-tablet-landscape-up #############*/
+/*############ for-desktop-up ###########*/
+/*############ for-big-desktop-up ##########*//*# sourceMappingURL=style.css.map */

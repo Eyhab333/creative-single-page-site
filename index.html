@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Creative single page site</title>
+    <style>
+      body {
+        font-family: "Commissioner", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./assets/desktop/logo.svg" alt="logo">
+      </div>
+
+      <div class="icon-hamburger">
+        <img src="./assets/mobile/icon-hamburger.svg" alt="hamburger">
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="text">
+          <h1>Branding &
+            website design agency</h1>
+          <p>
+            We specialize in visual storytelling by creating cohesive brand and
+            website design solutions for small businesses, giving lasting
+            impressions to audiences in a digital world.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="image">
+          <source
+            media="(min-width: 900px)"
+            srcset="./assets/desktop/image-hero.jpg"
+          />
+          <source
+            media="(min-width: 600px)"
+            srcset="./assets/tablet/image-hero.jpg"
+          />
+          <img src="./assets/mobile/image-hero.jpg" alt="a" />
+        </div>
+      </section>
+
+      <section class="div2">
+        <div class="image">
+          <source
+            media="(min-width: 900px)"
+            srcset="./assets/desktop/image-strategic.jpg"
+          />
+          <source
+            media="(min-width: 600px)"
+            srcset="./assets/tablet/image-strategic.jpg"
+          />
+          <img src="./assets/mobile/image-strategic.jpg" alt="a" />
+        </div>
+
+        <div class="text">
+          <h2><span>Design</span> is strategic.</h2>
+          <p>
+            “A well-crafted design strategy consistently produces desired
+            outcomes and brand awareness. We are firm believers that success
+            lies in creative collaboration with our clients.”
+          </p>
+          <a href="#">Schedule a Call</a>
+        </div>
+      </section>
+
+      <section class="div3">
+        <div class="first-text">
+          <h2>Our approach for creating a winning brand</h2>
+        </div>
+        <div class="second-text">
+          <div class="item">
+            <h3>Brand Strategy</h3>
+            <p>
+              Brand strategy is critical for long-term success. Outshining
+              competitors and capturing the target audience are key.
+            </p>
+          </div>
+          <div class="item">
+            <h3>Brand Design</h3>
+            <p>
+              Keeping the brand design unique and meaningful helps in
+              communicating the brand’s value effectively.
+            </p>
+          </div>
+          <div class="item">
+            <h3>Web Design</h3>
+            <p>
+              A beautifully crafted website is the best tool for brand
+              awareness, and ultimately results in increased revenues.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="div4 slider">
+        <div class="text">
+          <h2>Brand naming & guidelines</h2>
+          <div class="navigation">
+            <a href="#">
+              <div class="previous arrow">
+                <img src="./assets/desktop/icon-arrow-previous.svg" alt="a" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="next arrow">
+                <img src="./assets/desktop/icon-arrow-next.svg" alt="a" />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="image">
+          <picture>
+            <source media="(min-width: 900px)" srcset="./assets/desktop" />
+            <source media="(min-width: 600px)" srcset="./assets/tablet" />
+            <img src="./assets/mobile/image-slide-1.jpg" alt="s" />
+          </picture>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Let's build something great together.</h2>
+      <a href="#">Schedule a Call</a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
